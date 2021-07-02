@@ -1,0 +1,15 @@
+/* sticky background */
+.my_sticky_bg{
+    background: #fff;
+    animation: menu 1s;
+    -webkit-animation: menu 1s;
+    
+}
+@keyframes menu{
+    from{
+        top: -100px;
+    }
+    to{
+        top: 0px;
+    }
+}
